@@ -1,2 +1,11 @@
-# testAndroid
-my test android project
+# 获取电话簿案例
+获取当前手机通讯录
+
+# 获取通话记录
+获取当前手机通话记录
+
+# PhotoView 的使用（带高斯模糊）
+使用Gidle4.0加载图片，图片的预加载动画
+
+# 全屏的悬浮吸顶布局案例
+
