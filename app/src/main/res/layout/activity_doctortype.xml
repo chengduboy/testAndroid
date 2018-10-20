@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="#00000000"
+    android:fitsSystemWindows="true"
+              android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:background="#99ffffff"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:background="#50ffffff"
+            android:layout_height="match_parent">
+
+            <com.example.administrator.testnewaa.MyNoScrollListView
+                android:id="@+id/list_type"
+                android:divider="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:dividerHeight="1.7px"
+                android:layout_height="match_parent">
+
+            </com.example.administrator.testnewaa.MyNoScrollListView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorAccent"
+        android:visibility="gone"
+        android:gravity="center"
+        android:layout_height="40px">
+
+        <TextView
+            android:layout_width="80px"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#50000000"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
+
+</LinearLayout>
